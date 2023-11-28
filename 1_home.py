@@ -16,6 +16,8 @@ import plotly.graph_objects as go
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
 st.set_page_config(layout="wide", page_title="Mando Setas Meli", page_icon="🍄")
 
+current_time = time.ctime()
+
 with st.sidebar:
     st.write('Prototipo Mando Rentabilidad')
 st.title("Mandos 🎮 Setas Meli 🍄")
