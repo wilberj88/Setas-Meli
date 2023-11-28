@@ -21,15 +21,15 @@ current_time = time.ctime()
 with st.sidebar:
     st.write('Prototipo Mando Rentabilidad')
 st.title("Mandos 🎮 Setas Meli 🍄")
-a = st.selectbox("Selecciona un Mando 🎮", ("Histórico", "Estrategia", "Alarmas", "Recomendaciones"), index=None, placeholder="Choose an option")
+a = st.selectbox("Selecciona un Mando 🎮", ("Histórico y 2024", "Estrategia", "Alarmas", "Recomendaciones"), index=None, placeholder="Choose an option")
 
-if a == "Histórico":
+if a == "Histórico y 2024":
   colored_header(
     label="Mando 1: Modelación Histórica",
     description="Costos, Ventas, Rentabilidades",
     color_name="violet-70",
   )
-  b = st.selectbox('Selecciona un año de análisis', ('2018', '2019', '2020', '2021', '2022'))
+  b = st.selectbox('Selecciona un año de análisis', ('2018', '2019', '2020', '2021', '2022', '2023', '2024'))
   if b:
       st.write('Desempeño financiero en el año ', a)
       col4, col5 = st.columns(2)
