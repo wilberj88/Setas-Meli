@@ -31,7 +31,7 @@ if a == "Histórico y 2024":
   )
   b = st.selectbox('Selecciona un año de análisis', ('2018', '2019', '2020', '2021', '2022', '2023', '2024'))
   if b:
-      st.write('Desempeño financiero en el año ', a)
+      st.write('Desempeño financiero en el año ', b)
       col4, col5 = st.columns(2)
       with col4:
           fig1 = go.Figure(data=[go.Sankey(
