@@ -19,7 +19,7 @@ st.set_page_config(layout="wide", page_title="Mando Setas Meli", page_icon="🍄
 current_time = time.ctime()
 
 with st.sidebar:
-    st.write('Prototipo Mando Rentabilidad')
+    st.write('Prototipo Base 2024-2026')
 st.title("Mandos 🎮 Setas Meli 🍄")
 a = st.selectbox("Selecciona un Mando 🎮", ("Histórico y 2024", "Estrategia", "Alarmas", "Recomendaciones"), index=None, placeholder="Choose an option")
 
